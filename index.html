@@ -24,6 +24,25 @@
             font-size: 0.9em;
             color: #888;
         }
+        .typewriter {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #000; /* Curseur */
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    animation: typing 4s steps(50, end), blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
     </style>
 </head>
 <body>
@@ -31,9 +50,7 @@
     <h2>Mon Snap : <a href="https://www.snapchat.com/add/tinodu104" target="_blank">@tinodu104</a></h2>
     <h2>Mon Insta : <a href="https://www.instagram.com/tinodu104/" target="_blank">@tinodu104</a></h2>
     <p>Moi qui pensais venir chez ste Geneviève et voilà que je tombe sur une esprit grandiose lectrice de Foenkinos</p>
-    <footer>
-        © 2024 - Créé par batman
-    </footer>
+    <h3 class="typewriter">T'étais tellement fraîche dans la bibliothèque que tout le monde en est resté bouche bée</h3>
     <iframe src="https://giphy.com/embed/2dQ3FMaMFccpi" width="480" height="456" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
 </body>
 </html>
